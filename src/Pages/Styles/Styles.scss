@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+
+.footer{
+    background: #000;
+    padding: 50px 0;
+    width: 100%;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.form{
+    display: grid;
+    align-items: center;
+    padding: 20px 300px 20px 300px;
+    &__header{
+        color: blueviolet;
+    }
+}
+
+.errors{
+    font-size: small ;
+    color: red;
+    margin: 0px;
+}

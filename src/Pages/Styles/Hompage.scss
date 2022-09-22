@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    flex: 0 0 26.66666666666667%;
+    max-width: 26.66666666666667%;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+.summary{
+    overflow: hidden;
+    height: 100px;
+}
