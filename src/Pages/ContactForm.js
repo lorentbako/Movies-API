@@ -1,6 +1,6 @@
 import React from "react";
 import { Formik } from "formik";
-import "./Styles/Styles.scss";
+import "./Styles/Form.scss";
 
 const ContactForm = () => (
   <div>

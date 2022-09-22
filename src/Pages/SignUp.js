@@ -1,8 +1,8 @@
 import React from 'react'
 import ContactForm from './ContactForm'
-import "./Styles/Styles.scss";
+import "./Styles/Form.scss";
 
-const Contact = () => {
+const SignUp = () => {
   return (
     <div className ="form">
     <ContactForm />
@@ -10,4 +10,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default SignUp;

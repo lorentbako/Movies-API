@@ -18,7 +18,7 @@ function Layout() {
             <Nav className="me-auto">
               <Nav.Link href="/">Homepage</Nav.Link>
               <Nav.Link href="services">Services</Nav.Link>
-              <Nav.Link href="contact">Contact</Nav.Link>
+              <Nav.Link href="signup">Sign Up</Nav.Link>
             </Nav>
           </Container>
         </Navbar>

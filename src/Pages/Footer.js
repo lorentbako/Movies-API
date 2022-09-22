@@ -1,18 +1,17 @@
 import React from "react";
-import "./Styles/Styles.scss";
+import "./Styles/Footer.scss";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      <Container>
+      <Container >
         <div className="row">
             <div className="items">
               Navigate:<br />
-              <Link to="services">Homepage<br /></Link> 
-              Homepage<br />
-              Services<br />
-              Contact
+              <Link to="/">Homepage<br /></Link> 
+              <Link to="services">Services<br /></Link> 
+              <Link to="signup">Sign Up<br /></Link> 
             </div>
             <div className="items">
             Address: M554+94 Pristina Kosta Novakoviq,<br/> Prishtinë <br/>Prishtina XK, 10000

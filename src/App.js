@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import Homepage from "./Pages/Homepage";
 import Services from "./Pages/Services";
-import Contact from "./Pages/Contact";
+import SignUp from "./Pages/SignUp";
 import NoPage from "./Pages/NoPage";
 
 
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
           <Route path="services" element={<Services />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="signup" element={<SignUp />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
