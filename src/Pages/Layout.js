@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-import { Outlet } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import Footer from "./Footer";
 
 function Layout() {
@@ -16,9 +16,9 @@ function Layout() {
           <Container>
             <Navbar.Brand href="/">Navbar</Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="/">Homepage</Nav.Link>
-              <Nav.Link href="services">Services</Nav.Link>
-              <Nav.Link href="signup">Sign Up</Nav.Link>
+              <NavLink to="/">Homepage</NavLink>
+              <NavLink to="services">Services</NavLink>
+              <NavLink to="signup">Sign Up</NavLink>
             </Nav>
           </Container>
         </Navbar>
