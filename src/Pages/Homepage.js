@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import parse from "html-react-parser";
 
 import "./Styles/Hompage.scss";
-import styles from "./Styles/SearchBar.module.css";
+import styles from "./Styles/Homepage.module.css";
 
 const Homepage = () => {
   //Set State

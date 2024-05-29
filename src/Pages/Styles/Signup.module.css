@@ -1,0 +1,29 @@
+.signupForm{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 30%px;
+    margin-left: 20%;
+}
+
+.signupForm input{
+    width: 40%;
+}
+
+.signupForm button{
+    width: 120px;
+}
+
+.errors{
+    color: #750000;
+}

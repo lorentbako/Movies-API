@@ -1,12 +1,11 @@
 import React from "react";
 import { Formik } from "formik";
-import styles from "./Styles/SearchBar.module.css"
+import styles from "./Styles/Signup.module.css"
 
 
 const ContactForm = () => (
-  <div>
+  <div className={styles.containerForm}>
     <div className="form form__header">
-      {" "}
       <h1>Sign Up Area</h1>
     </div>
     <Formik
@@ -66,7 +65,7 @@ const ContactForm = () => (
         handleSubmit,
         isSubmitting,
       }) => (
-        <form onSubmit={handleSubmit} className={styles.form}>
+        <form onSubmit={handleSubmit} className={styles.signupForm}>
           <label for="fname">First Name:</label>
           <input
             placeholder="First Name"
@@ -76,7 +75,7 @@ const ContactForm = () => (
             onBlur={handleBlur}
             value={values.fname}
           />
-          <p className="errors">
+          <p className={styles.errors}>
             {errors.fname && touched.fname && errors.fname}
           </p>
           <br />
@@ -89,7 +88,7 @@ const ContactForm = () => (
             onBlur={handleBlur}
             value={values.lname}
           />
-          <p className="errors">
+          <p className={styles.errors}>
             {errors.lname && touched.lname && errors.lname}
           </p>
           <br />
@@ -101,7 +100,7 @@ const ContactForm = () => (
             onBlur={handleBlur}
             value={values.birthday}
           ></input>
-          <p className="errors">
+          <p className={styles.errors}>
             {errors.birthday && touched.birthday && errors.birthday}
           </p>
           <br />
@@ -114,7 +113,7 @@ const ContactForm = () => (
             onBlur={handleBlur}
             value={values.email}
           />
-          <p className="errors">
+          <p className={styles.errors}>
             {errors.email && touched.email && errors.email}
           </p>
           <br />
@@ -127,7 +126,7 @@ const ContactForm = () => (
             onBlur={handleBlur}
             value={values.password}
           />
-          <p className="errors">
+          <p className={styles.errors}>
             {errors.password && touched.password && errors.password}
           </p>
           <br />

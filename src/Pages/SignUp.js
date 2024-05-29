@@ -1,10 +1,10 @@
 import React from 'react'
 import ContactForm from './ContactForm'
-import styles from "./Styles/SearchBar.module.css"
+import styles from "./Styles/Signup.module.css"
 
 const SignUp = () => {
   return (
-    <div className ={styles.form}>
+    <div className ={styles.signup}>
     <ContactForm />
     </div>
   )
