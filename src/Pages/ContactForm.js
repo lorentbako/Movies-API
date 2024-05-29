@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik } from "formik";
-import "./Styles/Form.scss";
+import styles from "./Styles/SearchBar.module.css"
+
 
 const ContactForm = () => (
   <div>
@@ -65,7 +66,7 @@ const ContactForm = () => (
         handleSubmit,
         isSubmitting,
       }) => (
-        <form onSubmit={handleSubmit} className="form">
+        <form onSubmit={handleSubmit} className={styles.form}>
           <label for="fname">First Name:</label>
           <input
             placeholder="First Name"

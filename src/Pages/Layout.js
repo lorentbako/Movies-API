@@ -1,8 +1,8 @@
-import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-
 import { Outlet, NavLink } from "react-router-dom";
+
 import Footer from "./Footer";
+import styles from "./Styles/Layout.module.css";
 
 function Layout() {
   return (
@@ -14,11 +14,17 @@ function Layout() {
           className="navbar sticky-top navbar-light bg-light"
         >
           <Container>
-            <Navbar.Brand href="/">Navbar</Navbar.Brand>
-            <Nav className="me-auto">
-              <NavLink to="/">Homepage</NavLink>
-              <NavLink to="services">Services</NavLink>
-              <NavLink to="signup">Sign Up</NavLink>
+            <Nav className={styles.navLinkContainer}>
+              <Navbar.Brand to="/">Movies</Navbar.Brand>
+              <NavLink className={styles.navLink} to="/">
+                Homepage
+              </NavLink>
+              <NavLink className={styles.navLink} to="services">
+                Services
+              </NavLink>
+              <NavLink className={styles.navLink} to="signup">
+                Sign Up
+              </NavLink>
             </Nav>
           </Container>
         </Navbar>

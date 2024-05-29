@@ -1,0 +1,49 @@
+.searchButton {
+  background-color: #0c3025;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #286854;
+}
+
+.searchInput {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categoriesList {
+  appearance: none;
+  width: 33%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.form {
+  margin: 0 0 0 170px;
+}
+
+.errors {
+  font-size: small;
+  color: red;
+  margin: 0px;
+}
